@@ -38,7 +38,7 @@ namespace TicketDepot.TicketManagement.Domain
             this.reservationRepository = reservationRepository;
         }
 
-        public async Task<ObjectResult> ValidateNewVenue(Event newEvent, CancellationToken cancellationToken = default)
+        public async Task<ObjectResult> ValidateNewEvent(Event newEvent, CancellationToken cancellationToken = default)
         {
             Requires.NotNull(newEvent, nameof(newEvent));
 
