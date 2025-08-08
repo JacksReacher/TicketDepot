@@ -92,7 +92,7 @@ namespace TicketDepot.TicketManagement.Domain
         {
             try
             {
-                ObjectResult validationResult = await this.eventValidator.ValidateNewVenue(newEvent, cancellationToken).ConfigureAwait(false);
+                ObjectResult validationResult = await this.eventValidator.ValidateNewEvent(newEvent, cancellationToken).ConfigureAwait(false);
                 if (validationResult.StatusCode != (int)HttpStatusCode.OK)
                 {
                     return validationResult;
