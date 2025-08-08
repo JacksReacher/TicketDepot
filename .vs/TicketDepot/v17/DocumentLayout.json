@@ -1,0 +1,620 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|solutionrelative:ticketdepot.ticketmanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\itickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\itickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\icustomerrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\icustomerrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\validators\\interfaces\\ivenuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\validators\\interfaces\\ivenuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\validators\\interfaces\\itickettypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\validators\\interfaces\\itickettypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\validators\\interfaces\\ieventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\validators\\interfaces\\ieventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\venuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\venuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\tickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\tickettyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\constants\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\constants\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\providers\\tickettypeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\providers\\tickettypeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.webapi\\extensions\\configcosmosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|solutionrelative:ticketdepot.ticketmanagement.webapi\\extensions\\configcosmosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.webapi\\extensions\\configbusinessproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|solutionrelative:ticketdepot.ticketmanagement.webapi\\extensions\\configbusinessproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\ivenuerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\ivenuerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\providers\\venueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\providers\\venueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\extensions\\iaddextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\extensions\\iaddextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.webapi\\controllers\\v1\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|solutionrelative:ticketdepot.ticketmanagement.webapi\\controllers\\v1\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\validators\\eventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\validators\\eventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\providers\\interfaces\\ieventprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\providers\\interfaces\\ieventprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.respository\\repositories\\interfaces\\extensions\\ideleteextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651435D-4AB9-4A51-B813-9FDB77737297}|TicketDepot.Respository\\TicketDepot.TicketManagement.Repository.csproj|solutionrelative:ticketdepot.respository\\repositories\\interfaces\\extensions\\ideleteextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.domain\\validators\\venuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4B7945-F352-462D-9A90-66681F0665EF}|TicketDepot.TicketManagement.Domain\\TicketDepot.TicketManagement.Domain.csproj|solutionrelative:ticketdepot.ticketmanagement.domain\\validators\\venuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|g:\\source\\interview3\\alaskaairlines\\ticketdepot\\ticketdepot.ticketmanagement.webapi\\extensions\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2DF964-F0AC-4D25-B4E3-92FF2E703600}|TicketDepot.TicketManagement.WebApi\\TicketDepot.TicketManagement.WebApi.csproj|solutionrelative:ticketdepot.ticketmanagement.webapi\\extensions\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 5011,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:34:13.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketTypeProvider.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\TicketTypeProvider.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Providers\\TicketTypeProvider.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\TicketTypeProvider.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Providers\\TicketTypeProvider.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvz0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:03:23.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAMAuwEYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:39:51.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:37:12.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConfigBusinessProviders.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigBusinessProviders.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigBusinessProviders.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigBusinessProviders.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigBusinessProviders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:43:22.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:34:03.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICustomerRespository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ICustomerRespository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\ICustomerRespository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ICustomerRespository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\ICustomerRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:33:21.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITicketTypeRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ITicketTypeRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\ITicketTypeRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ITicketTypeRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\ITicketTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:34:28.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:36:29.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:31:06.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.WebApi\\appsettings.json",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\appsettings.json",
+              "RelativeToolTip": "TicketDepot.TicketManagement.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T10:42:54.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\EventRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAHwAAAAAzMzMzMzgv7wAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:37:25.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVenueValidator.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IVenueValidator.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IVenueValidator.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IVenueValidator.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IVenueValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:49:07.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAGEAAAAAMzMzM/MrwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:41:50.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketTypeRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\TicketTypeRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\TicketTypeRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\TicketTypeRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\TicketTypeRepository.cs",
+              "ViewState": "AgIAAHgAAACAzMzMzEwiwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:40:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VenueRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\VenueRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\VenueRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\VenueRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\VenueRepository.cs",
+              "ViewState": "AgIAAB0AAACAMzMzMzMowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:42:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITicketTypeValidator.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\ITicketTypeValidator.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\ITicketTypeValidator.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\ITicketTypeValidator.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\ITicketTypeValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:49:03.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContainerRepository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\ContainerRepository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\ContainerRepository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\ContainerRepository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\ContainerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:37:05.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEventValidator.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IEventValidator.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IEventValidator.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IEventValidator.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Validators\\Interfaces\\IEventValidator.cs",
+              "ViewState": "AgIAACcAAAAAYGZmZmbWvzMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:49:20.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IVenueRespository.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IVenueRespository.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\IVenueRespository.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\IVenueRespository.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\IVenueRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:36:48.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Queries.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Constants\\Queries.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Constants\\Queries.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Constants\\Queries.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Constants\\Queries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:42:13.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfigCosmosDb.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigCosmosDb.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigCosmosDb.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigCosmosDb.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.WebApi\\Extensions\\ConfigCosmosDb.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:34:57.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VenueProvider.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\VenueProvider.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Providers\\VenueProvider.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\VenueProvider.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Providers\\VenueProvider.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwC4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:32:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAddExtension.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IAddExtension.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IAddExtension.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IAddExtension.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IAddExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:19:25.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EventValidator.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\EventValidator.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Validators\\EventValidator.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\EventValidator.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Validators\\EventValidator.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAnwKsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:49:49.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IEventProvider.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\Interfaces\\IEventProvider.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Providers\\Interfaces\\IEventProvider.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Providers\\Interfaces\\IEventProvider.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Providers\\Interfaces\\IEventProvider.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIA0wDwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:47:29.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IDeleteExtension.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IDeleteExtension.cs",
+              "RelativeDocumentMoniker": "TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IDeleteExtension.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IDeleteExtension.cs",
+              "RelativeToolTip": "TicketDepot.Respository\\Repositories\\Interfaces\\Extensions\\IDeleteExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:11:30.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Controllers\\V1\\EventController.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.WebApi\\Controllers\\V1\\EventController.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Controllers\\V1\\EventController.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.WebApi\\Controllers\\V1\\EventController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAADwv6AAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:47:12.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Services.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\Services.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.WebApi\\Extensions\\Services.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.WebApi\\Extensions\\Services.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.WebApi\\Extensions\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:43:26.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VenueValidator.cs",
+              "DocumentMoniker": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\VenueValidator.cs",
+              "RelativeDocumentMoniker": "TicketDepot.TicketManagement.Domain\\Validators\\VenueValidator.cs",
+              "ToolTip": "G:\\Source\\Interview3\\AlaskaAirlines\\TicketDepot\\TicketDepot.TicketManagement.Domain\\Validators\\VenueValidator.cs",
+              "RelativeToolTip": "TicketDepot.TicketManagement.Domain\\Validators\\VenueValidator.cs",
+              "ViewState": "AgIAABUAAAAAmpmZmdklwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:51:50.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 365,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

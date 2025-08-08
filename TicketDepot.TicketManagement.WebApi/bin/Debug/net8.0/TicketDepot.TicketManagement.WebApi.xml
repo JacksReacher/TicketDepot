@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketDepot.TicketManagement.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:VWAC.AzureSelfServicePortal.Services.Controllers.ErrorController">
+            <summary>
+            This class handles all Errors for the API.
+            </summary>
+        </member>
+        <member name="M:VWAC.AzureSelfServicePortal.Services.Controllers.ErrorController.#ctor(Microsoft.Extensions.Logging.ILogger{VWAC.AzureSelfServicePortal.Services.Controllers.ErrorController},TicketDepot.Shared.IObjectResultProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VWAC.AzureSelfServicePortal.Services.Controllers.ErrorController"/> class.
+            </summary>
+            <param name="fallbackLogger">The logger <see cref="T:Microsoft.Extensions.Logging.ILogger`1"/>.</param>
+            <param name="objectResultProvider"></param>
+        </member>
+        <member name="M:VWAC.AzureSelfServicePortal.Services.Controllers.ErrorController.Error">
+            <summary>
+            Captures the errors.
+            </summary>
+            <returns><see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/>.</returns>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController">
+            <summary>
+            Then Events Controller class.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.#ctor(TicketDepot.TicketManagement.Domain.IEventProvider,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance <see cref="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController"/>.
+            </summary>
+            <param name="eventProvider"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.CreateEventAsync(TicketDepot.TicketManagement.Domain.EventRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new Event. Events are unique by name.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.UpdateEventAsync(TicketDepot.TicketManagement.Repository.Event,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new Event. Events are unique by name.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.ReserveTicketsAsync(TicketDepot.TicketManagement.Domain.ReservationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Reserves anset of tickets for a <see cref="T:TicketDepot.TicketManagement.Repository.TicketType"/>.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.CancelTicketsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Cancels a set of tickets for a <see cref="T:TicketDepot.TicketManagement.Repository.Reservation"/>.
+            </summary>
+            <param name="reservationId"></param>
+            <param name="transactionId"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.PurchaseTicketsAsync(TicketDepot.TicketManagement.Repository.Reservation,System.Threading.CancellationToken)">
+            <summary>
+            Cancells a set of tickets for a <see cref="T:TicketDepot.TicketManagement.Repository.Reservation"/>.
+            </summary>
+            <param name="reservation"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.EventsController.GetAvailabilityAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets the List of TicketType availability by <see cref="T:TicketDepot.TicketManagement.Repository.SeatingType"/>.
+            </summary>
+            <param name="eventId"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.TicketTypeController">
+            <summary>
+            The TicketType controller class.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.TicketTypeController.#ctor(TicketDepot.TicketManagement.Domain.ITicketTypeProvider,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of <see cref="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.TicketTypeController"/>.
+            </summary>
+            <param name="ticketTypeProvider"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.TicketTypeController.CreateTicketTypeAsync(TicketDepot.TicketManagement.Domain.TicketTypeRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new TicketType for the specified EventId.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.TicketTypeController.UpdateTicketTypeAsync(TicketDepot.TicketManagement.Repository.TicketType,System.Threading.CancellationToken)">
+            <summary>
+            Updates a new TicketType for the specified EventId.
+            </summary>
+            <param name="updatedTicketType"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController">
+            <summary>
+            The Venu Controller class.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.#ctor(TicketDepot.TicketManagement.Domain.IVenueProvider,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of <see cref="T:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController"/>.
+            </summary>
+            <param name="venueProvider"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.GetAllVenues(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets all the Venues.
+            </summary>
+            <param name="continuationToken"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.GetVenue(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a Venue by Venue Id or returns 404 if not found.
+            </summary>
+            <param name="id"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.CreateVenueAsync(TicketDepot.TicketManagement.Domain.VenueRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new Venue. Venues are unique by name.
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.GetByName(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a Venue by name or returns 404 if not found.
+            </summary>
+            <param name="name"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Controllers.V1.VenueController.UpdateVenue(TicketDepot.TicketManagement.Repository.Venue,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing Venue. Venues are unique by name.
+            </summary>
+            <param name="updatedVenue"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.ConfigBusinessProviders">
+            <summary>
+            Adds the business providers to DI.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.ConfigBusinessProviders.AddBusinessProviders(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds the business providers to DI.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.ConfigCosmosDb">
+            <summary>
+            The CosmosDb configuration class.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.ConfigCosmosDb.AddCosmosDbClients(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds class for cosmos db.
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.ConfigCosmosDb.CreateCosmosDbClient(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            This method creates the singleton <see cref="T:TicketDepot.TicketManagement.Repository.CosmosDbClient"/>.
+            </summary>
+            <param name="configuration">The current configuration <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>.</param>
+            <returns>The created instance of <see cref="T:TicketDepot.TicketManagement.Repository.ICosmosClient"/>.</returns>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.ConfigCosmosDb.CreateCosmosContainerClient``1(TicketDepot.TicketManagement.Repository.ICosmosClient,System.String)">
+            <summary>
+            Creates the container specific class instance.
+            </summary>
+            <typeparam name="T">The type of container class to create <see cref="T:TicketDepot.TicketManagement.Repository.ICosmosContainer"/>.</typeparam>
+            <param name="cosmosDbClient">The singleton <see cref="T:TicketDepot.TicketManagement.Repository.ICosmosClient"/>.</param>
+            <param name="containerName">The name of the container to encapsulate.</param>
+            <returns>The instance of <see cref="T:TicketDepot.TicketManagement.Repository.ICosmosContainer"/> created.</returns>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.Services">
+            <summary>
+            Add Misc Services to DI.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Services.AddMiscServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds Misc services to DI.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.ModelMapper">
+            <summary>
+            AutoMapper configuration class.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.ModelMapper.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:TicketDepot.TicketManagement.WebApi.ModelMapper"/>.
+            </summary>
+        </member>
+        <member name="T:TicketDepot.TicketManagement.WebApi.Program">
+            <summary>
+            Starting point for the web api.
+            </summary>
+        </member>
+        <member name="M:TicketDepot.TicketManagement.WebApi.Program.Main(System.String[])">
+            <summary>
+            The main method for the application.
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
