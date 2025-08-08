@@ -14,7 +14,7 @@ namespace TicketDepot.TicketManagement.Domain
         /// <param name="newEvent"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        Task<ObjectResult> ValidateNewVenue(Event newEvent, CancellationToken cancellationToken = default);
+        Task<ObjectResult> ValidateNewEvent(Event newEvent, CancellationToken cancellationToken = default);
 
         /// <summary>
         /// Validates an updated <see cref="Event"/>.
