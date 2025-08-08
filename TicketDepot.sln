@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{61D17D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{C5BBE5C4-FF57-4478-94B2-A98C4848DD24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketDepot.TicketManagement.Domain.Tests", "TicketDepot.TicketManagement.Domain.Tests\TicketDepot.TicketManagement.Domain.Tests.csproj", "{C7482E6E-1427-9230-4B8F-1C3C05139195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{EC4B7945-F352-462D-9A90-66681F0665EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4B7945-F352-462D-9A90-66681F0665EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4B7945-F352-462D-9A90-66681F0665EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7482E6E-1427-9230-4B8F-1C3C05139195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7482E6E-1427-9230-4B8F-1C3C05139195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7482E6E-1427-9230-4B8F-1C3C05139195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7482E6E-1427-9230-4B8F-1C3C05139195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{1651435D-4AB9-4A51-B813-9FDB77737297} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{BCA5E0DC-F820-4C6F-A036-980BB56E89A2} = {61D17D06-0AF6-41C6-9E1D-008D190BE0D7}
 		{EC4B7945-F352-462D-9A90-66681F0665EF} = {E54B192F-2D95-4C65-86AA-2631A91B6A05}
+		{C7482E6E-1427-9230-4B8F-1C3C05139195} = {E54B192F-2D95-4C65-86AA-2631A91B6A05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {642E6760-8CDA-41D7-B7CD-85B915F884AE}
