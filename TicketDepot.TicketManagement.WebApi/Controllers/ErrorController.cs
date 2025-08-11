@@ -1,6 +1,6 @@
 ﻿
 
-namespace VWAC.AzureSelfServicePortal.Services.Controllers
+namespace TicketDepot.TicketManagement.WebApi
 {
     using System;
     using System.Net;
